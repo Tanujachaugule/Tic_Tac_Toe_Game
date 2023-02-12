@@ -67,4 +67,21 @@ class PlayingTTT {
             System.out.println();
         }
     }
+
+    public String[] choosingSymbol(boolean toss, Scanner sc) {
+        return new String[0];
+    }
+
+    public String[][] settingSymbol(String[][] board, String playerSymbol, int index) {
+        return board;
+    }
+
+    public boolean checkForWin(List<Integer> playerPosition) {
+        return false;
+    }
+
+    public boolean checkForDraw(String[][] board) {
+        return false;
+    }
 }
+
